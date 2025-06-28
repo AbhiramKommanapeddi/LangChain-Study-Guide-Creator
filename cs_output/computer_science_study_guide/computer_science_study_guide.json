@@ -1,0 +1,122 @@
+{
+  "title": "Computer Science Study Guide",
+  "subject": "Computer Science",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Computer Science covering key concepts and principles.",
+  "key_concepts": [
+    {
+      "name": "example",
+      "definition": "Important concept in Computer Science",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "science",
+      "definition": "Important concept in Computer Science",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "computer",
+      "definition": "Important concept in Computer Science",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "computer science",
+      "definition": "Important concept in Computer Science",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "advanced",
+      "definition": "Important concept in Computer Science",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    }
+  ],
+  "chapter_summaries": [],
+  "practice_questions": [
+    {
+      "question": "What is example?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of example",
+      "explanation": "example is an important concept in Computer Science",
+      "concepts_tested": [
+        "example"
+      ]
+    },
+    {
+      "question": "What is science?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of science",
+      "explanation": "science is an important concept in Computer Science",
+      "concepts_tested": [
+        "science"
+      ]
+    },
+    {
+      "question": "What is computer?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of computer",
+      "explanation": "computer is an important concept in Computer Science",
+      "concepts_tested": [
+        "computer"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "computer",
+      "back": "Definition and explanation of computer",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "computer science"
+      ]
+    },
+    {
+      "front": "science",
+      "back": "Definition and explanation of science",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "computer science"
+      ]
+    },
+    {
+      "front": "example",
+      "back": "Definition and explanation of example",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "computer science"
+      ]
+    },
+    {
+      "front": "concepts",
+      "back": "Definition and explanation of concepts",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "computer science"
+      ]
+    },
+    {
+      "front": "applications",
+      "back": "Definition and explanation of applications",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "computer science"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

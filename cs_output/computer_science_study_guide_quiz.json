@@ -1,0 +1,108 @@
+{
+  "title": "Computer Science Quiz",
+  "subject": "Computer Science",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is example?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Computer Science",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "example is indeed a key concept in Computer Science",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "example"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 2,
+      "question": "What is science?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Computer Science",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "science is indeed a key concept in Computer Science",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "science"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 3,
+      "question": "What is computer?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Computer Science",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "computer is indeed a key concept in Computer Science",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "computer"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What is computer science?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Computer Science",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "computer science is indeed a key concept in Computer Science",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "computer science"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 5,
+      "question": "What is advanced?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Computer Science",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "advanced is indeed a key concept in Computer Science",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "advanced"
+      ],
+      "difficulty_level": "medium"
+    }
+  ],
+  "time_limit": 15,
+  "passing_score": 70,
+  "metadata": {
+    "created_at": "2025-06-28T09:16:17.352163",
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

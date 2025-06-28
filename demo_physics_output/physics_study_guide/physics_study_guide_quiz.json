@@ -1,0 +1,89 @@
+{
+  "title": "Physics Quiz",
+  "subject": "Physics",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is quantum?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Physics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "quantum is indeed a key concept in Physics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "quantum"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 2,
+      "question": "What is simultaneously?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Physics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "simultaneously is indeed a key concept in Physics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "simultaneously"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 3,
+      "question": "What is matter?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Physics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "matter is indeed a key concept in Physics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "matter"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What is describes?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Physics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "describes is indeed a key concept in Physics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "describes"
+      ],
+      "difficulty_level": "medium"
+    }
+  ],
+  "time_limit": 15,
+  "passing_score": 70,
+  "metadata": {
+    "created_at": "2025-06-28T09:28:44.358609",
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

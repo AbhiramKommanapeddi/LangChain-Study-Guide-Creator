@@ -1,0 +1,60 @@
+{
+  "title": "Biology Study Guide",
+  "subject": "Biology",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Biology covering key concepts and principles.",
+  "key_concepts": [],
+  "chapter_summaries": [],
+  "practice_questions": [],
+  "flashcards": [
+    {
+      "front": "cells",
+      "back": "Definition and explanation of cells",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "cell",
+      "back": "Definition and explanation of cell",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "examples",
+      "back": "Definition and explanation of examples",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "organelles",
+      "back": "Definition and explanation of organelles",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "protein",
+      "back": "Definition and explanation of protein",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Physics Study Guide",
+  "subject": "Physics",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Physics covering key concepts and principles.",
+  "key_concepts": [
+    {
+      "name": "quantum",
+      "definition": "Important concept in Physics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "simultaneously",
+      "definition": "Important concept in Physics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "matter",
+      "definition": "Important concept in Physics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "describes",
+      "definition": "Important concept in Physics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    }
+  ],
+  "chapter_summaries": [],
+  "practice_questions": [
+    {
+      "question": "What is quantum?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of quantum",
+      "explanation": "quantum is an important concept in Physics",
+      "concepts_tested": [
+        "quantum"
+      ]
+    },
+    {
+      "question": "What is simultaneously?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of simultaneously",
+      "explanation": "simultaneously is an important concept in Physics",
+      "concepts_tested": [
+        "simultaneously"
+      ]
+    },
+    {
+      "question": "What is matter?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of matter",
+      "explanation": "matter is an important concept in Physics",
+      "concepts_tested": [
+        "matter"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "quantum",
+      "back": "Definition and explanation of quantum",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "front": "mechanics",
+      "back": "Definition and explanation of mechanics",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "front": "matter",
+      "back": "Definition and explanation of matter",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "front": "states",
+      "back": "Definition and explanation of states",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "front": "equation",
+      "back": "Definition and explanation of equation",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "physics"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}
