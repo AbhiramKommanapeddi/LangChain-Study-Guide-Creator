@@ -1,0 +1,12 @@
+{
+  "title": "Mathematics Quiz",
+  "subject": "Mathematics",
+  "difficulty": "medium",
+  "questions": [],
+  "time_limit": 15,
+  "passing_score": 70,
+  "metadata": {
+    "created_at": "2025-06-28T09:28:46.306949",
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

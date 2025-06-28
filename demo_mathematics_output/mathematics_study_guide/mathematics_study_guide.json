@@ -1,0 +1,60 @@
+{
+  "title": "Mathematics Study Guide",
+  "subject": "Mathematics",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Mathematics covering key concepts and principles.",
+  "key_concepts": [],
+  "chapter_summaries": [],
+  "practice_questions": [],
+  "flashcards": [
+    {
+      "front": "calculus",
+      "back": "Definition and explanation of calculus",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "derivatives",
+      "back": "Definition and explanation of derivatives",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "rule",
+      "back": "Definition and explanation of rule",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "change",
+      "back": "Definition and explanation of change",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "measures",
+      "back": "Definition and explanation of measures",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

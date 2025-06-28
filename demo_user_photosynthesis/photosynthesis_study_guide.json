@@ -1,0 +1,60 @@
+{
+  "title": "Photosynthesis Study Guide",
+  "subject": "Biology",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Biology covering key concepts and principles.",
+  "key_concepts": [],
+  "chapter_summaries": [],
+  "practice_questions": [],
+  "flashcards": [
+    {
+      "front": "photosynthesis",
+      "back": "Definition and explanation of photosynthesis",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "plants",
+      "back": "Definition and explanation of plants",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "energy",
+      "back": "Definition and explanation of energy",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "reactions",
+      "back": "Definition and explanation of reactions",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    },
+    {
+      "front": "molecules",
+      "back": "Definition and explanation of molecules",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "biology"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}
