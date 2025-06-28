@@ -1,0 +1,122 @@
+{
+  "title": "Cell Biology Study Guide",
+  "subject": "Cell Biology",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Cell Biology covering key concepts and principles.",
+  "key_concepts": [
+    {
+      "name": "example",
+      "definition": "Important concept in Cell Biology",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "biology",
+      "definition": "Important concept in Cell Biology",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "material",
+      "definition": "Important concept in Cell Biology",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "concepts",
+      "definition": "Important concept in Cell Biology",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "advanced",
+      "definition": "Important concept in Cell Biology",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    }
+  ],
+  "chapter_summaries": [],
+  "practice_questions": [
+    {
+      "question": "What is example?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of example",
+      "explanation": "example is an important concept in Cell Biology",
+      "concepts_tested": [
+        "example"
+      ]
+    },
+    {
+      "question": "What is biology?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of biology",
+      "explanation": "biology is an important concept in Cell Biology",
+      "concepts_tested": [
+        "biology"
+      ]
+    },
+    {
+      "question": "What is material?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of material",
+      "explanation": "material is an important concept in Cell Biology",
+      "concepts_tested": [
+        "material"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "biology",
+      "back": "Definition and explanation of biology",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "cell biology"
+      ]
+    },
+    {
+      "front": "example",
+      "back": "Definition and explanation of example",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "cell biology"
+      ]
+    },
+    {
+      "front": "concepts",
+      "back": "Definition and explanation of concepts",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "cell biology"
+      ]
+    },
+    {
+      "front": "applications",
+      "back": "Definition and explanation of applications",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "cell biology"
+      ]
+    },
+    {
+      "front": "core",
+      "back": "Definition and explanation of core",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "cell biology"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

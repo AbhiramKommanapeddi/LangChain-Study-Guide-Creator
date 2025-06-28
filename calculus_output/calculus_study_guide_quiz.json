@@ -1,0 +1,108 @@
+{
+  "title": "Mathematics Quiz",
+  "subject": "Mathematics",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is curves?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Mathematics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "curves is indeed a key concept in Mathematics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "curves"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 2,
+      "question": "What is dx?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Mathematics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "dx is indeed a key concept in Mathematics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "dx"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 3,
+      "question": "What is change?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Mathematics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "change is indeed a key concept in Mathematics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "change"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 4,
+      "question": "What is function?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Mathematics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "function is indeed a key concept in Mathematics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "function"
+      ],
+      "difficulty_level": "medium"
+    },
+    {
+      "id": 5,
+      "question": "What is derivatives?",
+      "type": "multiple_choice",
+      "options": [
+        "A) A key concept in Mathematics",
+        "B) An unrelated term",
+        "C) A different subject area",
+        "D) None of the above"
+      ],
+      "correct_answer": "A",
+      "explanation": "derivatives is indeed a key concept in Mathematics",
+      "points": 1,
+      "time_estimate": 60,
+      "tags": [
+        "derivatives"
+      ],
+      "difficulty_level": "medium"
+    }
+  ],
+  "time_limit": 15,
+  "passing_score": 70,
+  "metadata": {
+    "created_at": "2025-06-28T08:43:51.453101",
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

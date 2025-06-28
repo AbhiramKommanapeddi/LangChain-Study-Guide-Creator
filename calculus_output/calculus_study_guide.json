@@ -1,0 +1,122 @@
+{
+  "title": "Calculus Study Guide",
+  "subject": "Mathematics",
+  "level": "undergraduate",
+  "summary": "Comprehensive study guide for Mathematics covering key concepts and principles.",
+  "key_concepts": [
+    {
+      "name": "curves",
+      "definition": "Important concept in Mathematics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "dx",
+      "definition": "Important concept in Mathematics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "change",
+      "definition": "Important concept in Mathematics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "function",
+      "definition": "Important concept in Mathematics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    },
+    {
+      "name": "derivatives",
+      "definition": "Important concept in Mathematics",
+      "importance": "Key for understanding the subject",
+      "relationships": []
+    }
+  ],
+  "chapter_summaries": [],
+  "practice_questions": [
+    {
+      "question": "What is curves?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of curves",
+      "explanation": "curves is an important concept in Mathematics",
+      "concepts_tested": [
+        "curves"
+      ]
+    },
+    {
+      "question": "What is dx?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of dx",
+      "explanation": "dx is an important concept in Mathematics",
+      "concepts_tested": [
+        "dx"
+      ]
+    },
+    {
+      "question": "What is change?",
+      "type": "short_answer",
+      "difficulty": "medium",
+      "correct_answer": "Definition and explanation of change",
+      "explanation": "change is an important concept in Mathematics",
+      "concepts_tested": [
+        "change"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "rule",
+      "back": "Definition and explanation of rule",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "study",
+      "back": "Definition and explanation of study",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "calculus",
+      "back": "Definition and explanation of calculus",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "change",
+      "back": "Definition and explanation of change",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    },
+    {
+      "front": "integrals",
+      "back": "Definition and explanation of integrals",
+      "type": "term",
+      "difficulty": "medium",
+      "tags": [
+        "mathematics"
+      ]
+    }
+  ],
+  "visual_aids": [],
+  "metadata": {
+    "generated_by": "StudyGuideCreator (fallback mode)"
+  }
+}

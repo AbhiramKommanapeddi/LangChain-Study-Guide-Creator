@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ study_guide.title }}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2E86AB;
+            border-bottom: 2px solid #DDE2E5;
+            padding-bottom: 10px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .metadata {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .concept {
+            background: #e3f2fd;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #2E86AB;
+            border-radius: 5px;
+        }
+        .question {
+            background: #fff3e0;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ffcc02;
+        }
+        .flashcard {
+            background: #f3e5f5;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #A23B72;
+        }
+        .summary {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .chapter {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        .badge {
+            display: inline-block;
+            background: #F18F01;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .difficulty-easy { background: #4CAF50; }
+        .difficulty-medium { background: #FF9800; }
+        .difficulty-hard { background: #F44336; }
+        
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{{ study_guide.title }}</h1>
+            <div class="metadata">
+                <strong>Subject:</strong> {{ study_guide.subject }} | 
+                <strong>Level:</strong> {{ study_guide.level }} | 
+                <strong>Generated:</strong> {{ generation_date }}
+            </div>
+        </div>
+
+        <section>
+            <h2>📋 Overview</h2>
+            <div class="summary">
+                {{ study_guide.summary }}
+            </div>
+        </section>
+
+        {% if study_guide.key_concepts %}
+        <section>
+            <h2>🔑 Key Concepts</h2>
+            {% for concept in study_guide.key_concepts %}
+            <div class="concept">
+                {% if concept.name is defined %}
+                <h4>{{ concept.name }}</h4>
+                <p><strong>Definition:</strong> {{ concept.definition }}</p>
+                {% if concept.importance %}
+                <p><strong>Why it matters:</strong> {{ concept.importance }}</p>
+                {% endif %}
+                {% if concept.relationships %}
+                <p><strong>Related to:</strong> 
+                {% for rel in concept.relationships %}
+                <span class="badge">{{ rel }}</span>
+                {% endfor %}
+                </p>
+                {% endif %}
+                {% else %}
+                <h4>{{ concept }}</h4>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if study_guide.chapter_summaries %}
+        <section>
+            <h2>📚 Chapter Summaries</h2>
+            {% for chapter in study_guide.chapter_summaries %}
+            <div class="chapter">
+                <h3>{{ chapter.title }}</h3>
+                <div>{{ chapter.summary | nl2br }}</div>
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if study_guide.practice_questions %}
+        <section>
+            <h2>❓ Practice Questions</h2>
+            {% for question in study_guide.practice_questions %}
+            <div class="question">
+                <h4>Question {{ loop.index }}</h4>
+                <p><strong>{{ question.question }}</strong></p>
+                {% if question.options %}
+                <ul>
+                {% for option in question.options %}
+                <li>{{ option }}</li>
+                {% endfor %}
+                </ul>
+                {% endif %}
+                <p><strong>Answer:</strong> {{ question.correct_answer }}</p>
+                {% if question.explanation %}
+                <p><em>Explanation:</em> {{ question.explanation }}</p>
+                {% endif %}
+                <div>
+                    <span class="badge difficulty-{{ question.difficulty or 'medium' }}">
+                        {{ (question.difficulty or 'medium').title() }}
+                    </span>
+                    <span class="badge">{{ question.type or 'Question' }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if study_guide.flashcards %}
+        <section>
+            <h2>📝 Flashcards</h2>
+            {% for flashcard in study_guide.flashcards %}
+            <div class="flashcard">
+                <h4>Card {{ loop.index }}</h4>
+                <p><strong>Front:</strong> {{ flashcard.front }}</p>
+                <p><strong>Back:</strong> {{ flashcard.back }}</p>
+                {% if flashcard.tags %}
+                <div>
+                {% for tag in flashcard.tags %}
+                <span class="badge">{{ tag }}</span>
+                {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        <footer style="margin-top: 40px; text-align: center; color: #666; font-size: 0.9em;">
+            Generated by LangChain Study Guide Creator
+        </footer>
+    </div>
+</body>
+</html>
+        

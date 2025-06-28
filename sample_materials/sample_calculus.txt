@@ -1,0 +1,29 @@
+
+# Mathematics Study Material
+
+## Introduction to Calculus
+
+Calculus is the mathematical study of continuous change. It has two main branches:
+derivatives and integrals.
+
+### Derivatives
+The derivative measures the rate of change of a function. For a function f(x),
+the derivative f'(x) represents the slope at any point.
+
+Key formulas:
+- Power rule: d/dx[x^n] = nx^(n-1)
+- Product rule: d/dx[fg] = f'g + fg'
+- Chain rule: d/dx[f(g(x))] = f'(g(x)) × g'(x)
+
+### Integrals
+Integration is the reverse of differentiation. It finds the area under curves
+and solves accumulation problems.
+
+Fundamental theorem: ∫f'(x)dx = f(x) + C
+
+Applications:
+- Finding areas under curves
+- Calculating volumes of solids
+- Solving differential equations
+- Physics applications (motion, work, etc.)
+    
